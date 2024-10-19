@@ -13,6 +13,7 @@ func main() {
 
 		rl.ClearBackground(rl.RayWhite)
 		rl.DrawText("Congrats! You created your first window!", 190, 200, 20, rl.LightGray)
+		rl.DrawText("Hello world Go Game!", 190, 220, 20, rl.Black)
 
 		rl.EndDrawing()
 	}
